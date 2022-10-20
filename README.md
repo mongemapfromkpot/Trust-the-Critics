@@ -10,7 +10,7 @@ This repository is a PyTorch implementation of the TTC algorithm presented in *A
 The various experiments we run with TTC are described in Section 5 and Addendix 8 of the paper. Illustrating its flexibility, TTC can be trained for all four applications in the paper -- i.e. image denoising, generation, translation and deblurring -- using the same train.py script; the only necessary changes are the source and target datasets, specified by the 'source' and 'target' arguments. New TTC steps can be added to a previous TTC run by specifying the same path with the 'folder' argument as for that previous run. We include samples of the shell scripts we used to run our experiments in the example_shell_scripts folder. Note that training TTC is computationally demanding, and thus requires adequate computational resources (i.e. running this on your laptop is not recommended).
 
 ### Computing architecture and running times
-We ran different versions of the code presented here on Compute Canada (https://www.computecanada.ca/) clusters, always using a single NVIDIA P100 or V100 GPU. Training times are reported in Addendix 8 of the paper.
+We ran the code presented here on computational clusters provided by the Digital Research Alliance of Cananda (https://alliancecan.ca/en), always using a single NVIDIA P100 or V100 GPU. Training times are reported in Addendix 8 of the paper.
 
 
 ## Assets 
