@@ -3,7 +3,7 @@
 #!/bin/bash
 
 ## Prepare virtual environment
-source path/to/requirements-txt
+source path/to/requirements.txt
 
 ## Settings
 folder="./denoising_results"
