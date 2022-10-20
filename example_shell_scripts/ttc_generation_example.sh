@@ -1,4 +1,4 @@
-### This file is not intended to be used to run an experiment. It only provides an approximative example of how to train TTC critics for image generation with ttc.py and how to evaluate the generative performance using ttc_eval.py ###
+### This file is not intended to be used to run an experiment. It only provides an example of how to train TTC for image generation on MNIST and how to evaluate the generative performance with FID using this codebase. ###
 
 #!/bin/bash
 

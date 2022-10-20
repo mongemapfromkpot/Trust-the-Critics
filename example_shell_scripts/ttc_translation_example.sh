@@ -1,4 +1,4 @@
-### This file is not intended to be used to run an experiment. It provides an example on how to train TTC critics for image denoise with ttc.py and how to evaluate the denoise performance using denosing_eval.py ###
+### This file is not intended to be used to run an experiment. It provides an example of how to train TTC for image translation ###
 
 #!/bin/bash
 
