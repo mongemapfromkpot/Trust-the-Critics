@@ -7,10 +7,10 @@ This repository is a PyTorch implementation of the TTC algorithm presented in *A
 * Create a Python virtual environment with Python 3.8 installed.
 * Install the packages listed in requirements.txt (pip install -r requirements.txt)
 
-The various experiments we run with TTC are described in Section 5 and Addendix 8 of the paper. Illustrating its flexibility, TTC can be trained for all four applications in the paper -- i.e. image denoising, generation, translation and deblurring -- using the same train.py script; the only necessary changes are the source and target datasets, specified by the 'source' and 'target' arguments. We include samples of the shell scripts we used to run our experiments in the example_shell_scripts folder. We note that training TTC is computationally demanding, and thus requires adequate computational resources (i.e. running this on your laptop is not recommended).
+The various experiments we run with TTC are described in Section 5 and Addendix 8 of the paper. Illustrating its flexibility, TTC can be trained for all four applications in the paper -- i.e. image denoising, generation, translation and deblurring -- using the same train.py script; the only necessary changes are the source and target datasets, specified by the 'source' and 'target' arguments. New TTC steps can be added to past experiments by specifying the same path with the 'folder' argument. We include samples of the shell scripts we used to run our experiments in the example_shell_scripts folder. Note that training TTC is computationally demanding, and thus requires adequate computational resources (i.e. running this on your laptop is not recommended).
 
 ### Computing architecture and running times
-We ran different versions of the code presented here on Compute Canada (https://www.computecanada.ca/) clusters, always using a single NVIDIA P100 or V100 GPU. Here are rough estimations of the running times for our experiments. Training times are reported in Addendix 8 of the paper.
+We ran different versions of the code presented here on Compute Canada (https://www.computecanada.ca/) clusters, always using a single NVIDIA P100 or V100 GPU. Training times are reported in Addendix 8 of the paper.
 
 
 ## Assets 
